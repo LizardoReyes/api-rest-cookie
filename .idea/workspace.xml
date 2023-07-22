@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2febb4c6-f512-4ae8-94bb-af5b99f2ff91" name="Changes" comment="" />
+    <list default="true" id="2febb4c6-f512-4ae8-94bb-af5b99f2ff91" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Sfy7BBt65RLjrr2J03F1Oa0ZRx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -35,7 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/programacion/javascript/api-rest-ts",
     "node.js.detected.package.tslint": "true",
@@ -76,7 +82,7 @@
       <workItem from="1689551760867" duration="5613000" />
       <workItem from="1689910445806" duration="22000" />
       <workItem from="1689910486123" duration="11850000" />
-      <workItem from="1689995900645" duration="680000" />
+      <workItem from="1689995900645" duration="2124000" />
     </task>
     <servers />
   </component>

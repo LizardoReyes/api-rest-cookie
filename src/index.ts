@@ -4,10 +4,15 @@ import bodyParser from "body-parser";
 import cookieParser from "cookie-parser";
 import compression from "compression";
 import cors from "cors";
+import dotenv from "dotenv";
 import mongoose from "mongoose";
 import router from "./router";
 
+dotenv.config();
+
 const app: Express = express();
+const PORT = process.env.PORT || 8080;
+const MONGO_URL = process.env.MONGO_URL;
 
 app.use(cors({
     credentials: true,
@@ -19,11 +24,9 @@ app.use(bodyParser.json());
 
 const server: Server = http.createServer(app);
 
-server.listen(8080, (): void => {
-    console.log("Server started on http://locahost:8080/");
+server.listen(PORT, (): void => {
+    console.log(`Server started on http://locahost:${PORT}/`);
 });
-
-const MONGO_URL = 'mongodb://localhost:27017/api-rest-cookie';
 
 mongoose.Promise = Promise;
 mongoose.connect(MONGO_URL).then(() => console.log("Connected to MongoDB"));

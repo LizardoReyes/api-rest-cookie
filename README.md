@@ -28,12 +28,10 @@ git clone https://github.com/LizardoReyes/api-rest-cookie.git
 npm install
 ```
 
-### Setup MongoDB URL
+### Setup environment variables
 
-In `src/index.ts`:
-
-```js
-const MONGO_URL = ''; // DB URI
+```shell
+cp .env.example .env
 ```
 
 ### Start the app
@@ -46,6 +44,6 @@ npm start
 
 Running commands with npm `npm run [command]`
 
-| command         | description                              |     |
-| :-------------- | :--------------------------------------- |-----|
-| `start`         | Starts a development instance of the app |     |
+| command         | description                              |
+| :-------------- | :--------------------------------------- |
+| `start`         | Starts a development instance of the app |
