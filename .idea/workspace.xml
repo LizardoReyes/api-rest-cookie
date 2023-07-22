@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2febb4c6-f512-4ae8-94bb-af5b99f2ff91" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/programacion/javascript/api-rest-ts",
+    "last_opened_file_path": "D:/programacion/javascript/api-rest-cookie",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.standard": "",
@@ -54,6 +55,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\programacion\javascript\api-rest-cookie" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -82,7 +88,7 @@
       <workItem from="1689551760867" duration="5613000" />
       <workItem from="1689910445806" duration="22000" />
       <workItem from="1689910486123" duration="11850000" />
-      <workItem from="1689995900645" duration="2124000" />
+      <workItem from="1689995900645" duration="2858000" />
     </task>
     <servers />
   </component>

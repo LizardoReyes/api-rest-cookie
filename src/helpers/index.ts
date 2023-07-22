@@ -1,6 +1,9 @@
 import crypto from "crypto";
+import dotenv from "dotenv";
 
-const SECRET_KEY = 'LIZARDO-REST-API';
+dotenv.config();
+
+const SECRET_KEY = process.env.SECRET_KEY;
 
 export const random = () => crypto.randomBytes(128).toString("base64");
 export const authentication = (salt: string, password: string) =>
